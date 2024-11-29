@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace AguilarJordy_EvaluacionP2
+namespace AguilarJordyEvaluacionP2
 {
     public static class MauiProgram
     {
@@ -15,9 +15,7 @@ namespace AguilarJordy_EvaluacionP2
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
+            builder.Logging.AddDebug();
 
             return builder.Build();
         }

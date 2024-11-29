@@ -1,4 +1,4 @@
-﻿namespace AguilarJordy_EvaluacionP2
+﻿namespace AguilarJordyEvaluacionP2
 {
     public partial class AppShell : Shell
     {
